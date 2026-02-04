@@ -15,9 +15,9 @@
             height: 100%; 
             overflow: hidden; 
             font-family: Arial, sans-serif;
+            background-color: #f0f2f6;
         }
         
-        /* Área do Anúncio no Topo (Fixo) */
         #ads-container { 
             height: 100px; 
             background: #f0f2f6; 
@@ -27,14 +27,12 @@
             border-bottom: 1px solid #ddd;
         }
 
-        /* O App do Streamlit */
         #app-frame { 
             width: 100%; 
-            height: calc(100% - 130px); /* 100px do anúncio + 30px do rodapé */
+            height: calc(100% - 130px); 
             border: none; 
         }
 
-        /* Rodapé com Links Obrigatórios */
         footer { 
             height: 30px; 
             background: #ffffff; 
@@ -57,9 +55,9 @@
 
     <div id="ads-container">
         <span style="color: #999; font-size: 12px;">Publicidade (Google Ads)</span>
-        </div>
+    </div>
 
-    <iframe id="app-frame" src="https://burocrata-de-bolso.streamlit.app/?embed=true"></iframe>
+    <iframe id="app-frame" src="https://burocrata.streamlit.app/?embed=true"></iframe>
 
     <footer>
         <span>© 2026 Burocrata de Bolso</span>
