@@ -15,9 +15,10 @@
             height: 100%; 
             overflow: hidden; 
             font-family: Arial, sans-serif;
-            background-color: #f0f2f6;
+            background-color: #0E1117; /* Cor escura padrão do Streamlit para evitar flashes brancos */
         }
         
+        /* Área do Anúncio no Topo */
         #ads-container { 
             height: 100px; 
             background: #f0f2f6; 
@@ -27,12 +28,14 @@
             border-bottom: 1px solid #ddd;
         }
 
+        /* O App do Streamlit ocupando o restante da tela */
         #app-frame { 
             width: 100%; 
-            height: calc(100% - 130px); 
+            height: calc(100% - 130px); /* Ajustado para dar espaço ao topo e rodapé */
             border: none; 
         }
 
+        /* Rodapé profissional */
         footer { 
             height: 30px; 
             background: #ffffff; 
